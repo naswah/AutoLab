@@ -1,15 +1,15 @@
 {
     "dimensions": [
         {
-            "name": "Central Hole Diameter",
+            "name": "Circular Hole Diameter",
             "value": "\u00d820"
         },
         {
-            "name": "Height from Bottom to Hole Center",
+            "name": "Left Vertical Height",
             "value": "30"
         },
         {
-            "name": "Main Left Block Width",
+            "name": "Left Main Body Width",
             "value": "30"
         },
         {
@@ -33,7 +33,7 @@
     "entity_names": [
         "Line",
         "Circle",
-        "Arrowhead",
-        "Dimension Text"
+        "Text",
+        "Arrowhead"
     ]
 }

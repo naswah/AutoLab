@@ -1,0 +1,39 @@
+{
+    "dimensions": [
+        {
+            "name": "Hole Diameter",
+            "value": "20 mm"
+        },
+        {
+            "name": "Vertical Dimension (Left)",
+            "value": "30 mm"
+        },
+        {
+            "name": "Horizontal Dimension (Bottom Left)",
+            "value": "30 mm"
+        },
+        {
+            "name": "Horizontal Dimension (Bottom Right)",
+            "value": "10 mm"
+        },
+        {
+            "name": "Vertical Dimension (Right Top Step)",
+            "value": "20 mm"
+        },
+        {
+            "name": "Vertical Dimension (Right Bottom Step)",
+            "value": "20 mm"
+        },
+        {
+            "name": "Overall Vertical Dimension (Right)",
+            "value": "60 mm"
+        }
+    ],
+    "entity_count": 53,
+    "entity_names": [
+        "line",
+        "circle",
+        "arrow",
+        "text"
+    ]
+}
