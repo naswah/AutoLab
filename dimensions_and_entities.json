@@ -1,0 +1,39 @@
+{
+    "dimensions": [
+        {
+            "name": "Central Hole Diameter",
+            "value": "\u00d820"
+        },
+        {
+            "name": "Height from Bottom to Hole Center",
+            "value": "30"
+        },
+        {
+            "name": "Main Left Block Width",
+            "value": "30"
+        },
+        {
+            "name": "Right Step Width",
+            "value": "10"
+        },
+        {
+            "name": "Upper Right Step Height",
+            "value": "20"
+        },
+        {
+            "name": "Lower Right Step Height",
+            "value": "20"
+        },
+        {
+            "name": "Overall Height",
+            "value": "60"
+        }
+    ],
+    "entity_count": 51,
+    "entity_names": [
+        "Line",
+        "Circle",
+        "Arrowhead",
+        "Dimension Text"
+    ]
+}

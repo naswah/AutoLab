@@ -1,0 +1,36 @@
+{
+    "dimensions": [
+        {
+            "name": "Overall Width (Top View)",
+            "value": "100.00"
+        },
+        {
+            "name": "Overall Height (Top View)",
+            "value": "60.00"
+        },
+        {
+            "name": "Width of the horizontal bar (Top View)",
+            "value": "10.00"
+        },
+        {
+            "name": "Distance from edge to vertical bar (Top View)",
+            "value": "45.00"
+        },
+        {
+            "name": "Width of vertical bar (Top View)",
+            "value": "10.00"
+        },
+        {
+            "name": "Overall Width (Front View)",
+            "value": "100.00"
+        },
+        {
+            "name": "Overall Height (Front View)",
+            "value": "100.00"
+        },
+        {
+            "name": "Width of the vertical bar (Front View)",
+            "value": "10.00"
+        }
+    ]
+}
