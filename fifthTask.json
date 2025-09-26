@@ -1,0 +1,110 @@
+{
+    "entities": [
+        {
+            "type": "CIRCLE",
+            "params": {
+                "center": [
+                    24.0,
+                    24.0
+                ],
+                "radius": 24.0
+            }
+        },
+        {
+            "type": "CIRCLE",
+            "params": {
+                "center": [
+                    24.0,
+                    24.0
+                ],
+                "radius": 14.0
+            }
+        },
+        {
+            "type": "CIRCLE",
+            "params": {
+                "center": [
+                    90.0,
+                    24.0
+                ],
+                "radius": 5.0
+            }
+        },
+        {
+            "type": "LINE",
+            "params": {
+                "start_point": [
+                    37.6748,
+                    27.0
+                ],
+                "end_point": [
+                    55.0,
+                    27.0
+                ]
+            }
+        },
+        {
+            "type": "LINE",
+            "params": {
+                "start_point": [
+                    37.6748,
+                    21.0
+                ],
+                "end_point": [
+                    55.0,
+                    21.0
+                ]
+            }
+        },
+        {
+            "type": "ARC",
+            "params": {
+                "center": [
+                    24.0,
+                    24.0
+                ],
+                "radius": 14.0,
+                "start_angle": -12.38,
+                "end_angle": 12.38
+            }
+        },
+        {
+            "type": "LINE",
+            "params": {
+                "start_point": [
+                    28.0,
+                    47.6643
+                ],
+                "end_point": [
+                    92.1667,
+                    36.8182
+                ]
+            }
+        },
+        {
+            "type": "LINE",
+            "params": {
+                "start_point": [
+                    28.0,
+                    0.3357
+                ],
+                "end_point": [
+                    92.1667,
+                    11.1818
+                ]
+            }
+        },
+        {
+            "type": "ARC",
+            "params": {
+                "center": [
+                    90.0,
+                    24.0
+                ],
+                "radius": 13.0,
+                "start_angle": 279.5944,
+                "end_angle": 80.4056
+            }
+        }
+    ]
+}
