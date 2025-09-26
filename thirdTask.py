@@ -6,6 +6,7 @@ import sys
 import google.generativeai as genai
 from PIL import Image
 from dotenv import load_dotenv
+import google.generativeai as genai
 
 load_dotenv()
 
@@ -17,8 +18,6 @@ except KeyError:
     sys.exit(1)
 
 genai.configure(api_key=API_KEY)
-
-import google.generativeai as genai
 
 vision_model = genai.GenerativeModel('gemini-2.5-flash')
 
@@ -54,15 +53,14 @@ def extract_dimensions_to_json(image_path: str, output_filename: str):
 
             "{"
             "\"dimensions\": ["
-            "  {\"name\": \"Dimension Name\", \"value\": \"Value with units\"}"
+            " {\"name\": \"Dimension Name\", \"value\": \"Value with units\"}"
             "],"
             "\"entity_count\": 0,"
             "\"entity_names\": [\"type1\", \"type2\", \"etc\"]"
             "}",
-
             "Do not include any text outside the JSON. Only output JSON based on the attached image.",
             img
-]
+        ]
         response = vision_model.generate_content(prompt)
         
         # This part cleans the raw response to extract the JSON block
@@ -88,7 +86,6 @@ def extract_dimensions_to_json(image_path: str, output_filename: str):
         print(response.text)
     except Exception as e:
         print(f"An error occurred: {e}")
-
 
 if __name__ == "__main__":
     image_file = "D:\AutoLab\cad_image\Screenshot 2025-08-29 101018.png"
