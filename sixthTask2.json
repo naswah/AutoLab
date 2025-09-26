@@ -1,0 +1,94 @@
+{
+    "entities": [
+        {
+            "type": "LINE",
+            "params": {
+                "start_point": [
+                    0.0,
+                    0.0
+                ],
+                "end_point": [
+                    0.0,
+                    50.0
+                ]
+            }
+        },
+        {
+            "type": "LINE",
+            "params": {
+                "start_point": [
+                    0.0,
+                    50.0
+                ],
+                "end_point": [
+                    15.0,
+                    50.0
+                ]
+            }
+        },
+        {
+            "type": "LINE",
+            "params": {
+                "start_point": [
+                    15.0,
+                    50.0
+                ],
+                "end_point": [
+                    15.0,
+                    23.0
+                ]
+            }
+        },
+        {
+            "type": "ARC",
+            "params": {
+                "center": [
+                    23.0,
+                    23.0
+                ],
+                "radius": 8.0,
+                "start_angle": 180.0,
+                "end_angle": 270.0
+            }
+        },
+        {
+            "type": "LINE",
+            "params": {
+                "start_point": [
+                    23.0,
+                    15.0
+                ],
+                "end_point": [
+                    50.0,
+                    15.0
+                ]
+            }
+        },
+        {
+            "type": "LINE",
+            "params": {
+                "start_point": [
+                    50.0,
+                    15.0
+                ],
+                "end_point": [
+                    50.0,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "LINE",
+            "params": {
+                "start_point": [
+                    50.0,
+                    0.0
+                ],
+                "end_point": [
+                    0.0,
+                    0.0
+                ]
+            }
+        }
+    ]
+}
